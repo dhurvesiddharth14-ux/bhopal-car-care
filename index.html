@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Bhopal AutoCare | Doorstep Car Service</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Bhopal AutoCare | Doorstep Car Service</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <header>
-  <h1>Bhopal AutoCare</h1>
-  <p>Doorstep Car Repair & Service</p>
+    <h1>Bhopal AutoCare</h1>
+    <p>Professional Doorstep Car Service in Bhopal</p>
+    <a href="#booking" class="btn">Book Now</a>
 </header>
 
-<section class="container">
-  <h2>Book a Service</h2>
-  <form id="bookingForm">
-    <input type="text" placeholder="Name" required>
-    <input type="tel" placeholder="Mobile Number" required>
-    <input type="text" placeholder="Address" required>
-    <select required>
-      <option value="">Select Car Problem</option>
-      <option>Battery Issue</option>
-      <option>Engine Problem</option>
-      <option>Brake Issue</option>
-      <option>AC Problem</option>
-      <option>General Service</option>
-    </select>
-    <button type="submit">Book Now</button>
-  </form>
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+        <div class="card">Basic Car Wash</div>
+        <div class="card">Interior Cleaning</div>
+        <div class="card">Full Car Detailing</div>
+        <div class="card">Car AC Gas Refill</div>
+        <div class="card">Ceramic Coating</div>
+    </div>
 </section>
 
+<section class="pricing">
+    <h2>Launch Offers</h2>
+    <div class="pricing-container">
+
+        <div class="price-card">
+            <h3>Basic Car Wash</h3>
+            <p class="old-price">₹399</p>
+            <p class="offer-price">Intro Offer ₹349</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Interior Cleaning</h3>
+            <p class="old-price">₹999</p>
+            <p class="offer-price">Launch Offer ₹899</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Full Car Detailing</h3>
+            <p class="old-price">₹2499</p>
+            <p class="offer-price">Special Offer ₹2199</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Car AC Gas Refill</h3>
+            <p class="offer-price">₹1499</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Ceramic Coating</h3>
+            <p class="old-price">₹5999</p>
+            <p class="offer-price">₹5499</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="booking" class="booking">
+    <h2>Book Your Service</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="text" placeholder="Car Model" required>
+        <input type="text" placeholder="Your Address" required>
+        <button type="submit">Submit Booking</button>
+    </form>
+</section>
+
+<a href="https://wa.me/919999999999" class="whatsapp" target="_blank">Chat on WhatsApp</a>
+
 <footer>
-  <p>© 2026 Bhopal AutoCare</p>
+    <p>© 2026 Bhopal AutoCare | All Rights Reserved</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
